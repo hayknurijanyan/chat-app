@@ -1,0 +1,28 @@
+.chat-input {
+  background-color: #444;
+  border-radius: 4px;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #555;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
